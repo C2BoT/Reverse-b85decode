@@ -1,7 +1,8 @@
 import zlib
 
 # Define the compressed data
-compressed_data = b'x\x9c\xcb())(\xb6\xd2\xd7/J,\xd7K\xcf,\xc9(M*-N-J\xce\xcf+I\xcd+\xd1K\xce\xcf\xd5OKK)\xcb1442\xd0O,\xd0\xcfM\xcc\xcc\xd3\xcfJ\x03\x001"\x13\xc6'
+compressed_data = b'x\x9c\xcbH\xcd\xc9\xc9\x07\x00\x06,\x02\x15'
+
 
 # Decompress the compressed data
 decompressed_data = zlib.decompress(compressed_data)
